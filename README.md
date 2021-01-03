@@ -10,4 +10,4 @@ instagram -- abzycadabzy
 one last thing!!
 
 this is an open source beginner project of mine so feel free to download and edit the code to your imagination! 
-if you create something cool slide me a DM or email me at abzjani@gmail.com with the files so i can take a look at your take on what i have built 
+if you create something cool slide me a DM or email me at abzjani@gmail.com with the files so i can take a look at your take on what you have changed 
