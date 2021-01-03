@@ -1,0 +1,167 @@
+body{
+  margin: 0%;
+  padding: 0%;
+  font-family: Arial, Helvetica, sans-serif;
+  background-repeat: no-repeat;
+}
+
+/* BACKGROUNDS */
+.BG1{
+  height: 100vh;
+  width: 100%;
+  background-image: url('leaves.jpg');
+  background-size: cover;
+  background-position: center;
+  display: table;
+  background-attachment: fixed;
+} 
+.BG2{
+  height: 100vh;
+  width: 100%;
+  background-image: url('leaves.jpg');
+  background-size: cover;
+  background-position: center;
+  display: table;
+  background-attachment: fixed;
+}
+/* BACKGROUNDS */
+
+/* HAMBURGER MENU */ 
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: rgb(27, 27, 27); /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 90px 90px 90px 50px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: white;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: -6%;
+  left: 40%;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+/* HAMBURGER MENU */
+
+/* HEYTHERE WELCMING TEXT */
+.container{
+  padding: 5%;
+  text-align: center;
+  font-size: 3vw;
+}
+.heythere h1{
+  display: inline-block;
+  color:white;
+  animation:loadtime 1s ease-in-out;
+}
+/* ANIMATION LOAD UPWARDS FOR HEY WLCM */
+@keyframes loadtime{
+  0%{
+    transform: translateY(50%);
+  }
+  100%{
+    transform: translateX(0);
+  }
+}
+/* HEYTHERE WELCMING TEXT */
+
+/* FIXED MEDIA ICONS */ 
+.icon-bar {
+  position: fixed;
+  top: 55%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.icon-bar a {
+  display: block;
+  padding: 10px;
+  transition: all 0.3s ease-in-out;
+  font-size: 10px;
+}
+.icon-bar :hover{
+  -ms-transform: scale(1.3); /* IE 9 */
+  -webkit-transform: scale(1.3); /* Safari 3-8 */
+  transform: scale(1.3);
+}
+/* FIXED MEDIA ICONS */
+
+/* QUOTE TEMPLATE */
+.template{
+  background-color:rgba(27, 27, 27, 0.904);
+  padding: 50px 50px;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+.quote{
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.line{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.end{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* QUOTE TEMPLATE */
+
+/* profile card */
+.card {
+  background-color:rgba(27, 27, 27, 0.904);
+  max-width: 300px;
+  margin: auto;
+  padding-bottom: 5px;
+  text-align: center;
+  font-family: arial; 
+}
+.title {
+  color:white;
+  font-size: 18px;
+}
+h1{
+  color: white;
+}
+p{
+  color: white;
+}
+/* PROFILE CARD */
