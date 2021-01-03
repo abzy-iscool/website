@@ -1,5 +1,5 @@
 # website
-languages user are JS  HTML AND CSS
+languages used are JS  HTML AND CSS
 
 this a personal project of mine that i have created as a way to contact me through the internet 
 of course instagram and other means exist but i would rather you the visitor take a look through various different projects i will/have been working on 
