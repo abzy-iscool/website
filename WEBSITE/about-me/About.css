@@ -1,0 +1,140 @@
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+/* BACK-BUTTON FOR THE HOME PAGE NAVIGATION */
+.backbutton {
+  display: block;
+  position: fixed;
+  top: 0%;
+}
+
+/* BACK-BUTTON FOR THE HOME PAGE NAVIGATION */
+
+/* BACKGROUNDS */
+.background1 {
+  height: 100vh;
+  width: 100%;
+  background-image: url("yosemite.jpg");
+  background-size: cover;
+  background-position: center;
+  display: table;
+  background-attachment: fixed;
+}
+
+.background2 {
+  height: 100vh;
+  width: 100%;
+  background-image: url("tunnel.jpg");
+  background-size: cover;
+  background-position: center;
+  display: table;
+  background-attachment: fixed;
+}
+
+.background3 {
+  height: 100vh;
+  width: 100%;
+  background-image: url("cliff.jpg");
+  background-size: cover;
+  background-position: center;
+  display: table;
+  background-attachment: fixed;
+}
+
+/* BACKGROUNDS */
+
+/* IMAGES */
+
+.container {
+  display: inline-block;
+  padding-left: 34%;
+  position: relative;
+  top: 40%;
+  animation: move 1s ease-in-out;
+}
+
+/* KEYFRAMES FOR IMAGES */
+@keyframes move {
+  0% {
+    transform: translateY(50%);
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+/* KEYFRAMES FOR IAMGES */
+
+.images img {
+  padding: 20px;
+}
+
+/* IMAGES */
+
+/* HEADING AND PARAGRAPH VALUES FOR THE WHOLE PAGE */
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+}
+
+/* HEADING AND PARAGRAPH VALUES FOR THE WHOLE PAGE */
+
+/* TEXT BOX ABOUT ME */
+.textbox1 {
+  color: black;
+  border-color: whitesmoke;
+  padding: 50px 80px;
+  padding-top: 50px;
+  padding-right: 80px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+/* TEXT BOX ABOUT ME */
+
+/* TEXT BOX WHAT I SEE FOR THE FUTURE*/
+.textbox2 {
+  color: black;
+  border-color: whitesmoke;
+  padding: 50px 80px;
+  padding-top: 50px;
+  padding-right: 80px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+/* TEXT BOX WHAT I SEE FOR THE FUTURE*/
+
+/* ANCHOR POINTS FOR THE WHOLE PAGE */
+a {
+  color: gray;
+  text-decoration: none;
+}
+
+/* ANCHOR POINTS FOR THE WHOLE PAGE */
+
+/* FOOTER */
+.footer {
+  border: none;
+  padding: 2rem;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(27, 27, 27, 0.904);
+}
+
+.footer a {
+  color: black;
+  margin: 10px;
+  margin-left: 20px;
+  padding: auto;
+}
+
+/* FOOTER */
